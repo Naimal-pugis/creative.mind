@@ -1,0 +1,51 @@
+<html>
+	<head> </head>
+
+		<body>
+		<h1>signup form</h1>
+			<form>
+					<table> 
+					<tr>
+						<td>First name:</td>
+						<td> <input type="text" name="firstname"> </td>
+					</tr>
+					<tr>
+					    <td>Last name:</td>
+						<td> <input type="text" name="lastname"> </td>
+					</tr>
+					<tr> <td>password :</td>
+					<td><input type="password" name="Type password"> </td>
+					</tr>
+					<tr>
+					<td>confirm password:</td>
+					<td> <input type="password" name="Confirm password"></td>
+					</tr> 
+					<br>
+					<tr><td>BIO:</td>
+					<td> <text area = rows="40"	col="40" name ="BIOGRAPHY">
+					ADD YOU COMMENT HERE!
+					</td> 
+					</tr> 
+					</text area>
+						<input type = "radio" name ="gender" value ="male"> MALE <br>
+						<input type = "radio" name ="gender" value ="Female"> FEMALE <br>
+						DATE OF BIRTH: <input type = "date" name ="DATE OF BIRTH " value ="DATE"> <br>
+						<select name = "country"> 
+								<option value = "pakistan"> pakistan
+								</option> <br>
+								<option value = "china"> china  
+								</option>
+						</select>
+					
+					<tr><td>profile picture:</td>
+					<td> <input type = "file" name "upload file"></td>
+					</tr>
+					<tr><td>submit:</td>
+					<td> <input type = "submit" value = "submit"> </td>
+					</tr>
+				    </table>
+					
+						
+			</form>
+	</body>
+</html>

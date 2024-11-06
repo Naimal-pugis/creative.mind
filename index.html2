@@ -47,7 +47,31 @@
 					</tr>
 				    </table>
 					
-						
+					<br>
+					<td>CNIC NUMBER:</td>
+					<td> <input type ="number" required pattern ="[0-9]{5}-[0-9]{7}-[0-9]{1}" placeholder ="ENTER VALID CNIC"></td>
+					<tr>
+					<tr>
+					<br>
+					<td>PASSPORT:</td>
+					<td> <input type ="number" required pattern ="[ABC0-9]{8}" placeholder ="ENTER YOUR PASSPORT NUMBER"></td>
+					</tr>
+					<tr>
+					<br>
+					<td>CURRENCY:</td>
+					<td> <input type ="TEXT" pattern ="[A-z]{3}" placeholder ="ENTER YOUR CURRENCY CODE"></td>
+					</tr>
+					<tr>
+					<br>
+					<td>AGE:</td>
+					<td> <input type ="number"  required min= "18" max ="60" placeholder ="18-60"></td>
+					</tr>
+						</tr>
+					<br>
+					
+					<tr><td>SUBMIT:</td>
+					<td><INPUT TYPE = "SUBMIT" VALUE ="SUBMIT"></td></tr>
+			
 			</form>
 	</body>
 </html>

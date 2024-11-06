@@ -8,7 +8,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Form Validation
+// Form authentification
 document.querySelector('form').addEventListener('submit', function (e) {
     const name = document.getElementById('name');
     const email = document.getElementById('email');
